@@ -9,4 +9,7 @@ For now it's usage is by setting these properties in your pom.xml:
 </properties>
 ```
 
-Part of the TODOs is implementing auto checking installed versions.
+Part of the TODOs is implementing auto checking installed versions. #1
+
+After cloning, you need to run `mvn install` and then run it within your project:
+`mvn org.bestest.plugins:maven-web-drivers-compatibility-plugin:check-chrome`
